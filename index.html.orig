@@ -18,8 +18,8 @@
 
         <nav class="nav">
             <ul class="nav__list">
-                <li class="nav__item"><a href="index.html" class="nav__link">HOME</a></li>
-                <li class="nav__item">👉🏼 <a href="#" class="nav__link">CV</a></li>
+                <li class="nav__item">👉🏼 <a href="#" class="nav__link">HOME</a></li>
+                <li class="nav__item"><a href="cv.html" class="nav__link">CV</a></li>
                 <!-- <li class="nav__item"><a href="#" class="nav__link">RESEARCH</a></li> -->
                 <!-- <li class="nav__item"><a href="#" class="nav__link">PERSONAL PROJECTS</a></li> -->
                 <!-- <li class="nav__item"><a href="#" class="nav__link">DESIGN PROJECTS</a></li> -->
@@ -32,12 +32,37 @@
                 </span>
             </button> -->
 
-            <!-- CV PDF -->
-            <section class="downloadCV__section">
-                <p class="section__subtitle downloadCV__p">Full CV in PDF format below</p>
-                <iframe src="https://tjuan-per.github.io/Portfolio/folder/Yale_Juan Tampubolon (updated).pdf" width="98%" height="500px">
-                </iframe>
+            <!-- Introduction -->
+            <section class="intro" id="home">
+
+                <!-- Headshot -->
+                <div class="column" id="intro--img">
+<<<<<<< HEAD
+                    <img src="/docs/assets/images/Headshot.jpg" alt="a photo of Juan Tampubolon" width="320" class="headshot">
+=======
+                    <img src="docs/assets/images/Headshot.jpg" alt="a photo of Juan Tampubolon" width="320" class="headshot">
+>>>>>>> 58294fcae78e993ed46e6d945f67f35010f1bed9
+                </div>
+
+                <!-- Intro Body -->
+                <div class="column" id="intro--body">
+                    <h2 class="section__title section__title--intro">
+                        Horas! (Hello), I'm <strong>Juan Tampubolon</strong><br><em>/huan tappubolon/</em>
+                    </h2> 
+                    <p class="section__subtitle section__subtitle--intro">
+                        I was originally from Indonesia, but when I was 16 years old I moved to Washington, US to finish high school.
+                        Then, I went on to get my associate's degree and transferred to the University of Michigan. Today, I'm
+                        a senior majoring in linguistics and minoring in computer science.                   
+                    </p>
+                    <ul class="section__facts section__subtitle--intro">
+                        <li>🛶 <strong>Some Hobbies:</strong> Learning languages, dance, listening to podcasts, streaming youtube, building awesome sites, creating art, traveling</li>
+                        <li>🏠 <strong>Places Lived:</strong> Jakarta, Washington, Michigan</li>
+                        <li>🚗 <strong>States Traveled:</strong> 20/50</li>
+                        <li>🗺 <strong>Countries Visited:</strong> 10</li>
+                    </ul>
+                </div>
             </section>
+
         </main>
 
         <!-- Footer -->
@@ -60,6 +85,8 @@
             </div>
             <div class="copyright"><p>© 2021 Juan Tampubolon. All rights reserved.</p></div>
         </footer>
+
     </div>
+
 </body>
 </html>
