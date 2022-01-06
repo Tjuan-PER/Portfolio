@@ -3,10 +3,10 @@ html{
 }
 
 body{
-    background-color: #FFFFFF;
-    /* background-image: url(/images/Boredom\ 4\ Grain.jpg); */
+    background-color: #eb9a5d;
+    /* background-image: url(/docs/assets/images/Background.jpg); */
     background-position: top;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
@@ -23,29 +23,44 @@ header {
     height: auto;
 }
 
-main {
-    margin: 0 20px 20px 20px;
-    background-color: rgba(235, 235, 235, 0.726);
-    padding: 0 15px 0 15px;
-    border-radius: 0 0 15px 15px;
+.header__title {
+    color: #271848; /*rgb(53, 53, 53)*/
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 1600px;
+    font-size: 60px;
 }
 
-footer {
-    padding-top: 20px;
-    text-align: center;
-    height: 140px;
+.header__subtitle {
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+
+.tab {
+    margin: 20px 20px 20px 20px;
+    border-radius: 15px;
+    box-shadow: #271848 15px 17px 0px 0px;
+}
+
+main {
+    background-color: rgb(235, 235, 235);
+    padding: 0 15px 0 15px;
+    border-radius: 0 0 15px 15px;
 }
 
 .nav {
     text-align: center;
     list-style-type: none;
-    margin-bottom: 10px;
     padding: 2px;
     background-color: rgb(214, 214, 214);
     border-radius: 15px 15px 0px 0px;
-    margin: 0 20px 0 20px;
     padding: 5px;
 }
+
 
 .nav li {
     display: inline;
@@ -61,14 +76,6 @@ footer {
 .nav__link:hover {
     font-weight: 700;
     color: rgb(121, 0, 50);
-}
-
-.header__subtitle {
-    text-decoration: none;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: black;
-    font-size: 18px;
-    font-weight: lighter;
 }
 
 h2 {
@@ -117,6 +124,10 @@ footer{
     clear: both;
     font-size: 13px;
     font-weight: normal;
+    padding-top: 20px;
+    text-align: center;
+    height: 140px;
+    color: #ffffff;
 }
 
 footer > div > div {
@@ -133,7 +144,7 @@ footer ul{
 
 .footer-link{
     text-decoration: none;
-    color: black;
+    color: #ffffff;
 }
 
 footer li {
@@ -142,14 +153,6 @@ footer li {
 
 .copyright {
     clear:both;
-}
-
-header h1 {
-    color: rgb(53, 53, 53);
-    font-family: monospace;
-    font-style: normal;
-    font-weight: 1600px;
-    font-size: 60px;
 }
 
 .portfolio__img {
