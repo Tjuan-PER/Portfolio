@@ -1,0 +1,137 @@
+html {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    background-color:#151f28;
+}
+
+.container {
+    padding-top: 30px;
+    margin: 0 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+}
+
+.img-container {
+    justify-self: center;
+    padding-bottom: 0;
+}
+
+.headshot {
+    min-width: 300px;
+    max-width: 700px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: repeat;
+    box-shadow: inset;
+}
+
+header{
+    padding: 0;
+}
+
+nav {
+    width: 360px;
+    height: 48px;
+    margin: 30px auto;
+    background-color: #0a0f14;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.nav__list {
+    height: 48px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    list-style: none;
+    padding-left: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.nav__list > li {
+    display: inline;
+    align-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:aliceblue;
+    font-weight: bold;
+}
+
+header{
+    text-align: center;
+}
+
+.starter {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #0a0f14;
+    padding: 10px auto;
+    line-height: 1.5em;
+}
+
+.intro {
+    max-width: 450px;
+}
+
+.news-feed-container > div {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+    gap: 20px;
+}
+
+.news-feed {
+    background-color: aliceblue;
+    color: #0a0f13;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(210, 20, 20);
+}
+
+.news-feed:hover {
+    transform: translate(-5px, -5px);
+    transition-duration: 90ms;
+}
+
+.copyright > p {
+    text-align: center;
+}
+
+.footer__options{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.light {
+    font-weight: 100;
+    font-size: 0.75em;
+}
+
+.links {
+    color: #0a0f13;
+}

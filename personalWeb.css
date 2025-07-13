@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background-color: #eb9a5d;
+    background-color: #080e22;
     /* background-image: url(/docs/assets/images/Background.jpg); */
     background-position: top;
     background-size: contain;
@@ -16,6 +16,22 @@ body{
     margin-right: auto;
 }
 
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dashboard_panel{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.img-container {
+    width: 100%;
+}
+
+
 header {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -24,7 +40,7 @@ header {
 }
 
 .header__title {
-    color: #271848; /*rgb(53, 53, 53)*/
+    color: #dee5e9;
     font-family: monospace;
     font-style: normal;
     font-weight: 1600px;
@@ -47,7 +63,7 @@ header {
 }
 
 main {
-    background-color: rgb(235, 235, 235);
+    background-color: #aee1b8;
     padding: 0 15px 0 15px;
     border-radius: 0 0 15px 15px;
 }
@@ -56,7 +72,7 @@ main {
     text-align: center;
     list-style-type: none;
     padding: 2px;
-    background-color: rgb(214, 214, 214);
+    background-color: #00bf62;
     border-radius: 15px 15px 0px 0px;
     padding: 5px;
 }
@@ -88,7 +104,7 @@ h2 {
 
 .headshot {
     border-radius: 50%;
-    float: left;
+    border: 10px solid #4a5567;
     padding: 5px;
     margin: 50px 50px;
 }
@@ -117,6 +133,10 @@ h2 {
 .downloadCV__p{
     margin-top: 0px;
     padding-top: 15px;
+}
+
+.downloadCV__section {
+    display: block;
 }
 
 footer{
