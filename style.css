@@ -24,6 +24,10 @@ body{
     padding: 0;
 }
 
+.hero h1 {
+    line-height: 1em;
+}
+
 .img-container {
     justify-self: center;
     padding-bottom: 0;
@@ -129,9 +133,29 @@ header{
 
 .light {
     font-weight: 100;
-    font-size: 0.75em;
+    font-size: 1.25em;
 }
 
 .links {
     color: #0a0f13;
+}
+
+.tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.tag {    
+    font-size: 0.8em;
+    padding: 10px 20px;
+    background-color:rgb(53, 214, 161);
+    border-radius: 50px;
+}
+
+.skill-section{
+    padding: 10px 20px;
+    max-width: 750px;
+    margin: 0 auto;
 }
