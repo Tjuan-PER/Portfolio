@@ -197,7 +197,7 @@ header{
     }
     100%{
         opacity: 1;
-        transform: translatex(0px);
+        transform: translateX(0px);
     }
 }
 
@@ -208,7 +208,7 @@ header{
     }
     100%{
         opacity: 1;
-        transform: translatex(0px);
+        transform: translateX(0px);
     }
 }
 
